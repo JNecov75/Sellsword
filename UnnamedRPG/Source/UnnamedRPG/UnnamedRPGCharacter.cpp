@@ -51,8 +51,7 @@ void AUnnamedRPGCharacter::OnBeginOverlap(class AActor* OtherActor)
 	if (OtherActor && (OtherActor != this))
 	{
 		// send event
-		CGameEvent event(TEXT("PlayerBeginOverlap"));
-		event.AddParameter(TEXT("OtherActor"), OtherActor);
+		CGameEvent event(TEXT("PlayerBeginOverlap"), (void*)OtherActor);
 		_GameEventManager->SendEvent(event);
 	}
 }
@@ -63,8 +62,7 @@ void AUnnamedRPGCharacter::OnEndOverlap(class AActor* OtherActor)
 	if (OtherActor && (OtherActor != this))
 	{
 		// send event
-		CGameEvent event(TEXT("PlayerEndOverlap"));
-		event.AddParameter(TEXT("OtherActor"), OtherActor);
+		CGameEvent event(TEXT("PlayerEndOverlap"), (void*)OtherActor);
 		_GameEventManager->SendEvent(event);
 	}
 }

@@ -25,8 +25,7 @@ void CQuestObjectiveHandlerArea::RecieveGameEvent(class CGameEvent& event)
 {
 	if (bCompleteOnEnterArea && event.GetName() == _BeginOverlapName)
 	{
-		AActor* OtherActor = nullptr;
-		event.GetParameter(TEXT("OtherActor"), OtherActor);
+		AActor* OtherActor = static_cast<AActor*>(event.GetData());
 		if (OtherActor->ActorHasTag(_AreaTag))
 		{
 			bObjectiveCompleted = true;
@@ -37,8 +36,7 @@ void CQuestObjectiveHandlerArea::RecieveGameEvent(class CGameEvent& event)
 
 	else if (!bCompleteOnEnterArea && event.GetName() == _EndOverlapName)
 	{
-		AActor* OtherActor = nullptr;
-		event.GetParameter(TEXT("OtherActor"), OtherActor);
+		AActor* OtherActor = static_cast<AActor*>(event.GetData());
 		if (OtherActor->ActorHasTag(_AreaTag))
 		{
 			bObjectiveCompleted = true;

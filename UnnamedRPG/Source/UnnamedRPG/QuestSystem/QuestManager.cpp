@@ -98,6 +98,7 @@ void CQuestManager::GrabAllQuests()
 		UQuest* QuestObject = ConstructObject<UQuest>(QuestClass);
 		check(QuestObject);
 		_QuestsList.push_back(QuestObject);
+		QuestObject->AddToRoot();
 	}
 }
 
