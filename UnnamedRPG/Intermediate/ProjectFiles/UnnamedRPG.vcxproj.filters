@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\UnnamedRPG.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A3629D56-72C7-4F9D-9291-CFB633C27C1D}</UniqueIdentifier>
+			<UniqueIdentifier>{C8FD44ED-8FC8-4A07-9206-848B2D9B010F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UnnamedRPG.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{3F26C443-77BD-4A5F-8760-C23BF63D52CA}</UniqueIdentifier>
+			<UniqueIdentifier>{27F17E3D-7EE0-4300-A247-3CE3902F4D88}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\UnnamedRPG">
-			<UniqueIdentifier>{6450F9FE-DF8A-4CB2-B740-ED009EBF0F5A}</UniqueIdentifier>
+			<UniqueIdentifier>{2C9AD5B9-B632-4748-84B5-6A203F06CA0B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UnnamedRPG\UnnamedRPG.Build.cs">
 			<Filter>Source\UnnamedRPG</Filter>
@@ -67,7 +67,7 @@
 			<Filter>Source\UnnamedRPG</Filter>
 		</ClInclude >
 		<Filter Include="Source\UnnamedRPG\GameEventSystem">
-			<UniqueIdentifier>{14C7C6E3-04EF-4874-B6EC-66EB151684C8}</UniqueIdentifier>
+			<UniqueIdentifier>{75083EDD-A9B3-4473-B8C2-E038B1F6EBA7}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UnnamedRPG\GameEventSystem\GameEvent.cpp">
 			<Filter>Source\UnnamedRPG\GameEventSystem</Filter>
@@ -85,7 +85,7 @@
 			<Filter>Source\UnnamedRPG\GameEventSystem</Filter>
 		</ClInclude >
 		<Filter Include="Source\UnnamedRPG\QuestSystem">
-			<UniqueIdentifier>{97062433-5430-4283-8841-DA8BE1F6EDC8}</UniqueIdentifier>
+			<UniqueIdentifier>{1C9BCF29-9935-4C74-8470-815ADD1D1616}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UnnamedRPG\QuestSystem\Quest.cpp">
 			<Filter>Source\UnnamedRPG\QuestSystem</Filter>
