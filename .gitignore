@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1b244af9f4814d4ae629300d597281571faba5e7
 # Compiled Object files
 *.slo
 *.lo
@@ -46,11 +49,15 @@ Binaries/*
 
 # Builds
 Build/*
+<<<<<<< HEAD
 # Content
 Content/*
 !Content/Generation/*
 !Content/Quests/*
 !Content/StarterContent/*
+=======
+
+>>>>>>> 1b244af9f4814d4ae629300d597281571faba5e7
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
@@ -70,7 +77,11 @@ DerivedDataCache/*
 *.swp
 *.swo
 <<<<<<< HEAD
+<<<<<<< HEAD
 .ctrlp_cache/
 =======
 .ctrlp_cache/
 >>>>>>> Sellsword_GItHub/development
+=======
+.ctrlp_cache/
+>>>>>>> 1b244af9f4814d4ae629300d597281571faba5e7
